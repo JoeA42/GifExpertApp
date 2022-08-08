@@ -18,8 +18,6 @@ export const GifExpertApp = () => {
 
             <AddCategory
                 onNewCategory = {onAddCategory}
-
-
             />
                 {
                     categories.map( category => (
