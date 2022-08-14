@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import {AddCategory, GifGrid} from "./components";
-
+/* Example app made from a udemy course using a public api*/
 export const GifExpertApp = () => {
 
     const [ categories, setCategories ] = useState(['One Punch']);

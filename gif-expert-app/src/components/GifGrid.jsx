@@ -1,7 +1,7 @@
 import {GifItem} from "./GifItem";
 import {useFetchGifs} from "../hooks/useFetchGifs.js";
 
-
+/*Functional Component to display gifs in a grid*/
 export const GifGrid = ({ category }) => {
 
     const {images, isLoading} = useFetchGifs(category);
